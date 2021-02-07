@@ -1,0 +1,94 @@
+// 定义项目 API 的 proto 文件 可以同时描述 gRPC 和 HTTP API
+// protobuf 文件参考:
+//  - https://developers.google.com/protocol-buffers/
+syntax = "proto3";
+//kratos tool protoc --grpc --bm api.proto
+import "github.com/gogo/protobuf/gogoproto/gogo.proto";
+import "google/protobuf/empty.proto";
+import "google/api/annotations.proto";
+
+// package 命名使用 {appid}.{version} 的方式, version 形如 v1, v2 ..
+package demo.service.v1;
+
+// NOTE: 最后请删除这些无用的注释 (゜-゜)つロ
+
+option go_package = "api";
+option (gogoproto.goproto_getters_all) = false;
+
+service CarRecord {
+  rpc Ping(.google.protobuf.Empty) returns (.google.protobuf.Empty);
+  rpc SayHello(HelloReq) returns (.google.protobuf.Empty);
+  rpc SayHelloURL(HelloReq) returns (HelloResp) {
+    option (google.api.http) = {
+      get: "/kratos-demo/say_hello"
+    };
+  };
+  //  rpc UploadCarRecord(UploadCarRecordReq) returns (UploadCarRecordResp) {
+  //    option (google.api.http) = {
+  //      post: "/api/custom-lifang/uploadrecord"
+  //    };
+  //  };
+  rpc GetCarRecord(GetCarRecordReq) returns (CarRecordInfoList){
+    option (google.api.http) = {
+      get: "/api/custom-lifang/getcarrecord"
+    };
+  };
+}
+
+
+
+message HelloReq {
+  string name = 1 [(gogoproto.moretags) = 'form:"name" validate:"required"'];
+}
+
+message HelloResp {
+  string Content = 1 [(gogoproto.jsontag) = 'content'];
+}
+
+message UploadCarRecordResp{
+  int64  ResCode = 1 [(gogoproto.jsontag) = 'resCode'];
+  string ResMsg = 2 [(gogoproto.jsontag) = 'resMsg'];
+}
+
+message UploadCarRecordReq{
+  string carCode = 1 [(gogoproto.jsontag) = 'carCode'];
+  string inTime = 2 [(gogoproto.jsontag) = 'inTime'];
+  string passTime = 3 [(gogoproto.jsontag) = 'passTime'];
+  string parkID = 4 [(gogoproto.jsontag) = 'parkID'];
+  string inOrOut = 5 [(gogoproto.jsontag) = 'inOrOut'];
+  string GUID = 6 [(gogoproto.jsontag) = 'GUID'];
+  string channelID = 7 [(gogoproto.jsontag) = 'channelID'];
+  string channelName = 8 [(gogoproto.jsontag) = 'channelName'];
+  string imagePath = 9 [(gogoproto.jsontag) = 'imagePath'];
+}
+
+message GetCarRecordReq{
+  int64  page = 1 [(gogoproto.moretags) = 'form:"page" validate:"required"'];
+  int64  limit = 2 [(gogoproto.moretags) = 'form:"limit" validate:"required"'];
+  string inTime = 3 [(gogoproto.moretags) = 'form:"inTime" '];
+  string passTime = 4 [(gogoproto.moretags) = 'form:"passTime" '];
+  string carCode = 5 [(gogoproto.moretags) = 'form:"carCode" '];
+  string parkID = 6 [(gogoproto.moretags) = 'form:"parkID"'];
+}
+
+message  CarRecordInfo{
+  string carCode = 1 [(gogoproto.jsontag) = 'carCode'];
+  string inTime = 2 [(gogoproto.jsontag) = 'inTime'];
+  string passTime = 3 [(gogoproto.jsontag) = 'passTime'];
+  string parkID = 4 [(gogoproto.jsontag) = 'parkID'];
+  string inOrOut = 5 [(gogoproto.jsontag) = 'inOrOut'];
+  string GUID = 6 [(gogoproto.jsontag) = 'GUID'];
+  string channelID = 7 [(gogoproto.jsontag) = 'channelID'];
+  string channelName = 8 [(gogoproto.jsontag) = 'channelName'];
+  string imagePath = 9 [(gogoproto.jsontag) = 'imagePath'];
+  string caruser = 10 [(gogoproto.jsontag) = 'caruser'];
+  string stopaddr = 11 [(gogoproto.jsontag) = 'stopaddr'];
+}
+
+message CarRecordInfoList{
+  repeated CarRecordInfo List = 1 [(gogoproto.jsontag) = 'list'];
+  int64 total = 2 [(gogoproto.jsontag) = 'total'];
+}
+
+
+

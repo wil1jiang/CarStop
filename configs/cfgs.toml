@@ -1,0 +1,18 @@
+[common]
+    projectID = "38b04b2dfd6b26846ab11a965ff3f589"
+    stopaddr = "治安总队停车场"
+
+[carinterface]
+    ip = "192.168.9.247"
+    port = 80
+
+[rabbitmq]
+    user = "gato"
+    password = "gato@123456"
+    ip = "192.168.9.247"
+    port = 51887
+    vhost = "/"
+    exchange = "v1.exchange.thirdparty"
+    topic = "v1.topic.vehicle.event.zhianzongdui"
+
+

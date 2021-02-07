@@ -1,0 +1,5 @@
+[log]
+family = "lifang"
+dir = "/data/log/license-service/"
+stdout = true
+v = 0

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="06efc000-ca71-4cae-92aa-04d858be9de9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="F:\Go" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1nPtK5IQAVio87wBvjLuKSO9IQ4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/configs" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyWork\jywork\GitCode\lifang\configs" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build lifang/cmd" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="lifang" />
+      <working_directory value="$PROJECT_DIR$" />
+      <parameters value=" -conf configs" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/cmd/main.go" />
+      <package value="lifang/cmd" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build lifang/cmd" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="438" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611726659883">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="438" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.-3.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611726659883" />
+    <state x="1944" y="157" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.-3.1680.1010/0.0.1680.1010@1680.-3.1680.1010" timestamp="1611308034030" />
+    <state x="579" y="306" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612668816001">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="579" y="306" key="#com.intellij.fileTypes.FileTypeChooser/1680.-3.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1612668816001" />
+    <state x="2259" y="303" key="#com.intellij.fileTypes.FileTypeChooser/1680.-3.1680.1010/0.0.1680.1010@1680.-3.1680.1010" timestamp="1612488920193" />
+    <state x="617" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1612663377550">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="617" y="210" key="#com.intellij.ide.util.MemberChooser/1680.-3.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1612663377550" />
+    <state x="2297" y="207" key="#com.intellij.ide.util.MemberChooser/1680.-3.1680.1010/0.0.1680.1010@1680.-3.1680.1010" timestamp="1611538583339" />
+    <state x="620" y="260" key="FileChooserDialogImpl" timestamp="1612249654904">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="620" y="260" key="FileChooserDialogImpl/1680.-3.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1612249654904" />
+    <state width="1637" height="212" key="GridCell.Tab.0.bottom" timestamp="1612689361180">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="212" key="GridCell.Tab.0.bottom/1680.-3.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1612689361180" />
+    <state width="1637" height="210" key="GridCell.Tab.0.bottom/1680.-3.1680.1010/0.0.1680.1010@1680.-3.1680.1010" timestamp="1611539143943" />
+    <state width="1637" height="212" key="GridCell.Tab.0.center" timestamp="1612689361180">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="212" key="GridCell.Tab.0.center/1680.-3.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1612689361180" />
+    <state width="1637" height="210" key="GridCell.Tab.0.center/1680.-3.1680.1010/0.0.1680.1010@1680.-3.1680.1010" timestamp="1611539143943" />
+    <state width="1637" height="212" key="GridCell.Tab.0.left" timestamp="1612689361180">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="212" key="GridCell.Tab.0.left/1680.-3.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1612689361180" />
+    <state width="1637" height="210" key="GridCell.Tab.0.left/1680.-3.1680.1010/0.0.1680.1010@1680.-3.1680.1010" timestamp="1611539143943" />
+    <state width="1637" height="212" key="GridCell.Tab.0.right" timestamp="1612689361180">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="212" key="GridCell.Tab.0.right/1680.-3.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1612689361180" />
+    <state width="1637" height="210" key="GridCell.Tab.0.right/1680.-3.1680.1010/0.0.1680.1010@1680.-3.1680.1010" timestamp="1611539143943" />
+    <state width="1637" height="212" key="GridCell.Tab.1.bottom" timestamp="1612689361181">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="212" key="GridCell.Tab.1.bottom/1680.-3.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1612689361181" />
+    <state width="1637" height="210" key="GridCell.Tab.1.bottom/1680.-3.1680.1010/0.0.1680.1010@1680.-3.1680.1010" timestamp="1611539143862" />
+    <state width="1637" height="212" key="GridCell.Tab.1.center" timestamp="1612689361181">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="212" key="GridCell.Tab.1.center/1680.-3.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1612689361181" />
+    <state width="1637" height="210" key="GridCell.Tab.1.center/1680.-3.1680.1010/0.0.1680.1010@1680.-3.1680.1010" timestamp="1611539143862" />
+    <state width="1637" height="212" key="GridCell.Tab.1.left" timestamp="1612689361180">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="212" key="GridCell.Tab.1.left/1680.-3.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1612689361180" />
+    <state width="1637" height="210" key="GridCell.Tab.1.left/1680.-3.1680.1010/0.0.1680.1010@1680.-3.1680.1010" timestamp="1611539143862" />
+    <state width="1637" height="212" key="GridCell.Tab.1.right" timestamp="1612689361181">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="212" key="GridCell.Tab.1.right/1680.-3.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1612689361181" />
+    <state width="1637" height="210" key="GridCell.Tab.1.right/1680.-3.1680.1010/0.0.1680.1010@1680.-3.1680.1010" timestamp="1611539143862" />
+    <state x="1907" y="119" key="SettingsEditor" timestamp="1612250813110">
+      <screen x="1680" y="-3" width="1680" height="1010" />
+    </state>
+    <state x="2270" y="202" key="SettingsEditor/1680.-3.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611725356110" />
+    <state x="1907" y="119" key="SettingsEditor/1680.-3.1680.1010/0.0.1680.1010@1680.-3.1680.1010" timestamp="1612250813110" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1612344683779">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/1680.-3.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1612344683779" />
+    <state width="848" height="513" key="XDebugger.FullValuePopup" timestamp="1612687620556">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="848" height="513" key="XDebugger.FullValuePopup/1680.-3.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1612687620556" />
+    <state x="1717" y="39" width="1415" height="765" key="dock-window-1" timestamp="1612687303794">
+      <screen x="1680" y="-3" width="1680" height="1010" />
+    </state>
+    <state x="1717" y="39" width="1415" height="765" key="dock-window-1/1680.-3.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1612687303794" />
+    <state x="821" y="74" width="669" height="804" key="find.popup" timestamp="1612682139986">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="821" y="74" width="669" height="804" key="find.popup/1680.-3.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1612682139986" />
+    <state x="1779" y="97" width="738" height="804" key="find.popup/1680.-3.1680.1010/0.0.1680.1010@1680.-3.1680.1010" timestamp="1612488283829" />
+    <state x="680" y="263" key="refactoring.ChangeSignatureDialog" timestamp="1611312479101">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="680" y="263" key="refactoring.ChangeSignatureDialog/1680.-3.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1611312479101" />
+    <state x="473" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1612662007517">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="473" y="221" width="672" height="678" key="search.everywhere.popup/1680.-3.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1612662007517" />
+    <state x="2153" y="218" width="672" height="678" key="search.everywhere.popup/1680.-3.1680.1010/0.0.1680.1010@1680.-3.1680.1010" timestamp="1611306929123" />
+    <state x="2242" y="413" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1611537711156">
+      <screen x="1680" y="-3" width="1680" height="1010" />
+    </state>
+    <state x="2242" y="413" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/1680.-3.1680.1010/0.0.1680.1010@1680.-3.1680.1010" timestamp="1611537711156" />
+  </component>
+</project>
